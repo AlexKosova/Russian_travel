@@ -15,7 +15,3 @@
     max-width: 288px;
   }
 }
-
-.cover__title:hover ~ .cover__overlay {
-  background-color: rgba(0, 0, 0, 0.7);
-}

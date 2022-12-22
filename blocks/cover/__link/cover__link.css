@@ -20,11 +20,12 @@
   min-width: 1184px;
   min-height: 740px;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(42, 44, 47, 1);
+  opacity: 0.3;
 }
 
 .cover__link:hover::before {
-  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
